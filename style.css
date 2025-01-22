@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.main {
+    max-width: 1440px;
+    height: 100vh;
+    background-color: black;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-size: 32px;
+}
+
+
+  /* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    .main {
+        background-color: yellow;
+        flex-wrap: wrap;
+
+    }
+
+    .box {
+        width: 400px;
+        height: 300px;
+        background-color: blue;
+        margin-bottom: 20px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .main {
+            background-color: red;
+            flex-wrap: wrap;
+    
+        }
+    
+        .box {
+            width: 300px;
+            height: 200px;
+            background-color: black;
+            margin-bottom: 20px;
+        }
+}
+
+@media (max-width: 991.98px) {
+.main {
+        background-color: purple;
+        flex-wrap: wrap;
+
+    }
+
+    .box {
+        width: 400px;
+        height: 300px;
+        background-color: orangered;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .main {
+            background-color: purple;
+            flex-wrap: wrap;
+        }
+    
+        .box {
+            width: 400px;
+            height: 300px;
+            background-color: orangered;
+        }
+}
